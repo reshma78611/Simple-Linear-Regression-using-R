@@ -5,11 +5,11 @@ In ML Algorithms we have :
 2. Unsupervised Learning
 
 
-In Supervised Learning we have :
+In **Supervised Learning** we have :
 1. Regression
 2. Classification
 
-     Firstly, we discuss about different types of Regressions.
+     Firstly, we discuss about different types of *Regressions*.
       1. Linear Regression
           1. Simple Linear Regression
           2. Multi-linear Regression
@@ -18,7 +18,10 @@ In Supervised Learning we have :
       4. Ridge Regression
      
      
- In this repository we discuss about Simple Linear Regression :
+ *In this repository we discuss about Simple Linear Regression*
+ 
+ ## Simple Linear Regression:
+ 
     
  
       
