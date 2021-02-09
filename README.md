@@ -42,5 +42,9 @@ In **Supervised Learning** we have :
 
 ## Data Used :
           wc_at,del_time,salary_data
+          
+## Programming: 
+           R - Language
+          
 
 
