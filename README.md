@@ -21,16 +21,26 @@ In **Supervised Learning** we have :
  *In this repository we discuss about Simple Linear Regression*
  
  ## Simple Linear Regression:
-          It is applicable when relationship between input variable and output variable is linear, that is it should have positive or negative correlation between input and output variable
  
- ![]
- (https://www.google.com/url?sa=i&url=https%3A%2F%2Fcourses.lumenlearning.com%2Fsuny-natural-resources-biometrics%2Fchapter%2Fchapter-7-correlation-and-simple-linear-regression%2F&psig=AOvVaw1_xSZtGDnS5Kax-Ax-BhXU&ust=1612954636153000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIC22bLS3O4CFQAAAAAdAAAAABAD)
+          It is applicable when relationship between input variable and output variable is linear, that is it should have positive or negative correlation between input and output variable. That can be known using scatter plot.
+          Here X is independent variable and Y is dependent variable, both X and Y are continuous.
+          After getting scatter plot we will get a best fit line using *OLS (ordinary least squares) method*
+                    OLS method: we will find distance between actual and predicted value on the line and this is the error (e1), similarly for all data points e2,e3,.....
+                                   e1^2+e2^2+e3^2+...........+en^2=(error value)
+                                             which line will get this 'error value' as less that is best fit line.
+                     Now using this best fit line we will build a model.
+                     How can we say that model is best?
+                        1. R^2 - coefficient of determination
+                           R^2 = explaines variation/total variation
+                           0<=R^2<=1
+                           if R^2 is nearly 1 => Good model
+                              R^2 is nearly 0 => Bad model
+                        2. RMSE (Root Mean Square Error) should be less 
  
  
- 
-      
-          
 
 
+## Data Used :
+          wc_at,del_time,salary_data
 
-datasets:wc_at,del_time,salary_data
+
