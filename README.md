@@ -36,15 +36,21 @@ In **Supervised Learning** we have :
                            if R^2 is nearly 1 => Good model
                               R^2 is nearly 0 => Bad model
                         2. RMSE (Root Mean Square Error) should be less 
+            To further improve the model we tried different transformations such as log transformation, Exponential Transformation, Quadratic Transformation
  
  
 
 
 ## Data Used :
-          wc_at,del_time,salary_data
+          wc_at: for given waist predicted AT value using linear model,
+          del_time: depending upon sorting time we have predicted delivary time using linear model,
+          salary_data: for given experience predicted salary hike using linear model
           
 ## Programming: 
            R - Language
+ 
+ 
+## **The Codes regarding this Linear model with three different business problems *salary hike prediction* ,*delivary time prediction*, *AT prediction* with their datasets are present in this Repository**
           
 
 
